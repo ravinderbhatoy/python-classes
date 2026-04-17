@@ -113,3 +113,16 @@
 #     if i != 5:
 #         print(i)
 #     i += 1
+
+
+# Max value
+
+nums = input("Enter numbers: ").split()
+
+maxi = int(nums[0])
+
+for num in nums:
+    if int(num) > maxi:
+        maxi = int(num)
+
+print(maxi)
