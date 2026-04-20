@@ -117,12 +117,17 @@
 
 # Max value
 
-nums = input("Enter numbers: ").split()
+# nums = input("Enter numbers: ").split()
+#
+# maxi = int(nums[0])
+#
+# for num in nums:
+#     if int(num) > maxi:
+#         maxi = int(num)
+#
+# print(maxi)
 
-maxi = int(nums[0])
+string = "Hello world"
 
-for num in nums:
-    if int(num) > maxi:
-        maxi = int(num)
-
-print(maxi)
+# for i in range(10):
+# print(string[i])
