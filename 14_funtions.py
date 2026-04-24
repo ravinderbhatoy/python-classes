@@ -63,6 +63,7 @@ def sum_of_natural(n):
 
 n = int(input("Enter n: "))
 res = sum_of_natural(n)
+res = sum_of_natural(10)
 
 print(res)
 
